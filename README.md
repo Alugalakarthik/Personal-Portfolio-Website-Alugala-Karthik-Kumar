@@ -1,12 +1,15 @@
 Project Title
+
 Personal Portfolio Website – Alugala Karthik Kumar
 
-Description
+Description:
+
 This is a professional portfolio website built using Bootstrap 5, HTML5, and CSS3 to showcase the skills, projects, and background of Alugala Karthik Kumar, an aspiring Java Developer with a background in Electronics and Communication Engineering.
 
 The website is fully responsive, SEO-friendly, and includes sections like Home, About, Projects, Resume, Testimonials, Blog links, and Contact form.
 
-Features
+Features:
+
 Modern, clean, and professional design.
 
 Fully responsive across desktop, tablet, and mobile.
@@ -25,15 +28,16 @@ Easy customization of colors and content using CSS variables.
 
 Built with Bootstrap 5 for fast, mobile-first development.
 
-Folder Structure
+Folder Structure:
+
 text
 /assets
   /css
     style.css           # Custom CSS
   /images
     profile.jpg         # Profile photo (400x400)
-    javaDeveloper.jpg        # Home Background image (800x600)
-/commonfile.html
+    javaDeveloper.jpg   # Home Background image (800x600)
+/commonfile.html        #viewpoint
 /index.html             # Landing page
 /about.html             # About page
 /projects.html          # Projects listing
@@ -54,7 +58,8 @@ Modify colors or typography in /assets/css/style.css using CSS variables.
 
 To deploy, upload all files to any static site hosting service (GitHub Pages, Netlify, Vercel, etc.).
 
-Customization Tips
+Customization Tips:
+
 Change the primary and accent colors in style.css via CSS variables.
 
 Update social media and blog profile links in the Blog and Contact pages.
@@ -65,7 +70,8 @@ Replace the profile image with your own (400x400 px recommended).
 
 Update testimonials and blog section with your own input.
 
-Technologies Used
+Technologies Used:
+
 HTML5 & CSS3
 
 Bootstrap 5
@@ -76,14 +82,16 @@ Google Fonts (Poppins & Open Sans)
 
 Minimal JavaScript for interactive elements and form validation
 
-Credits & References
+Credits & References:
+
 Bootstrap 5 framework: https://getbootstrap.com/
 
 Iconify icons: https://iconify.design/
 
 Images sourced from Unsplash or your own
 
-Contact
+Contact:
+
 Email: alugalakarthik123@gmail.com
 
 Phone: +91 9490901583
