@@ -31,22 +31,38 @@ Built with Bootstrap 5 for fast, mobile-first development.
 **Folder Structure:**
 
 text
+
 /assets
+
   /css
+  
     style.css           # Custom CSS
+    
   /images
+  
     profile.jpg         # Profile photo (400x400)
+    
     javaDeveloper.jpg   # Home Background image (800x600)
+    
 /commonfile.html        #viewpoint
+
 /index.html             # Landing page
+
 /about.html             # About page
+
 /projects.html          # Projects listing
+
 /project-single.html    # Detailed project view
+
 /resume.html            # Resume page
+
 /testimonials.html      # Testimonials component
+
 /blog.html              # Blog links page
+
 /contact.html           # Contact form page
-Open index.html in your web browser to view the portfolio.
+
+Open commonfile.html in your web browser to view the portfolio.
 
 **To customize:**
 
