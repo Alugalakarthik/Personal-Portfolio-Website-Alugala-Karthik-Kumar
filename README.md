@@ -1,14 +1,14 @@
-Project Title
+**Project Title**
 
-Personal Portfolio Website – Alugala Karthik Kumar
+*Personal Portfolio Website – Alugala Karthik Kumar*
 
-Description:
+**Description:**
 
 This is a professional portfolio website built using Bootstrap 5, HTML5, and CSS3 to showcase the skills, projects, and background of Alugala Karthik Kumar, an aspiring Java Developer with a background in Electronics and Communication Engineering.
 
 The website is fully responsive, SEO-friendly, and includes sections like Home, About, Projects, Resume, Testimonials, Blog links, and Contact form.
 
-Features:
+**Features:**
 
 Modern, clean, and professional design.
 
@@ -28,7 +28,7 @@ Easy customization of colors and content using CSS variables.
 
 Built with Bootstrap 5 for fast, mobile-first development.
 
-Folder Structure:
+**Folder Structure:**
 
 text
 /assets
@@ -48,7 +48,7 @@ text
 /contact.html           # Contact form page
 Open index.html in your web browser to view the portfolio.
 
-To customize:
+**To customize:**
 
 Replace images in /assets/images/.
 
@@ -58,7 +58,7 @@ Modify colors or typography in /assets/css/style.css using CSS variables.
 
 To deploy, upload all files to any static site hosting service (GitHub Pages, Netlify, Vercel, etc.).
 
-Customization Tips:
+**Customization Tips:**
 
 Change the primary and accent colors in style.css via CSS variables.
 
@@ -70,7 +70,7 @@ Replace the profile image with your own (400x400 px recommended).
 
 Update testimonials and blog section with your own input.
 
-Technologies Used:
+**Technologies Used:**
 
 HTML5 & CSS3
 
@@ -82,7 +82,7 @@ Google Fonts (Poppins & Open Sans)
 
 Minimal JavaScript for interactive elements and form validation
 
-Credits & References:
+**Credits & References:**
 
 Bootstrap 5 framework: https://getbootstrap.com/
 
@@ -90,7 +90,7 @@ Iconify icons: https://iconify.design/
 
 Images sourced from Unsplash or your own
 
-Contact:
+**Contact:**
 
 Email: alugalakarthik123@gmail.com
 
