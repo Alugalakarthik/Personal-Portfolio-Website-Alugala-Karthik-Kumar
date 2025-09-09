@@ -1,118 +1,70 @@
-**Project Title**
+**Alugala Karthik Kumar - Full Stack Java Developer Portfolio**
 
-*Personal Portfolio Website – Alugala Karthik Kumar*
+Welcome to my portfolio repository! This project showcases my journey, skills, projects, and experiences as a passionate Full Stack Java Developer.
 
-**Description:**
+**About Me:**
 
-This is a professional portfolio website built using Bootstrap 5, HTML5, and CSS3 to showcase the skills, projects, and background of Alugala Karthik Kumar, an aspiring Java Developer with a background in Electronics and Communication Engineering.
+I am a Full Stack Java Developer with 3 years of experience designing, developing, and deploying scalable web applications using Java, Spring Boot, Hibernate, Angular, and MySQL. My expertise includes building efficient RESTful APIs, integrating front-end and back-end systems, and applying Agile & DevOps best practices.
 
-The website is fully responsive, SEO-friendly, and includes sections like Home, About, Projects, Resume, Testimonials, Blog links, and Contact form.
+**Skills:**
 
-**Features:**
+Programming Languages: Java, Basics of Python, C
 
-Modern, clean, and professional design.
+Frameworks: Spring Boot, Hibernate, Angular
 
-Fully responsive across desktop, tablet, and mobile.
+Front-End: HTML5, CSS3, Bootstrap, JavaScript
 
-Navigation bar with smooth scrolling and icon integration.
+Back-End: Java, Spring Boot, REST APIs
 
-Project showcase with categorization.
+Database: MySQL
 
-Resume and testimonials pages.
+Version Control: Git, GitHub
 
-Contact form with validation.
+Build Tools: Maven
 
-External blog links for Medium, Dev.to, Hashnode.
+Deployment: AWS (EC2, RDS)
 
-Easy customization of colors and content using CSS variables.
+Methodologies: Agile Scrum
 
-Built with Bootstrap 5 for fast, mobile-first development.
+**Professional Experience:**
 
-**Folder Structure:**
+Full Stack Java Developer
 
-text
+Starlite Infotech Limited, Bengaluru, Karnataka (July 2022 – Present)
 
-/assets
+Backend development using Java, Spring MVC, and Hibernate
 
-  /css
-  
-    style.css           # Custom CSS
-    
-  /images
-  
-    profile.jpg         # Profile photo (400x400)
-    
-    javaDeveloper.jpg   # Home Background image (800x600)
-    
-/commonfile.html        #viewpoint
+Designed and integrated RESTful APIs with Angular frontend
 
-/index.html             # Landing page
+Participated in bug fixing, testing, and Agile sprint planning
 
-/about.html             # About page
+Optimized database queries and implemented caching strategies for enhanced performance
 
-/projects.html          # Projects listing
+**Projects:**
 
-/project-single.html    # Detailed project view
+*Doctor Appointment Management System*
 
-/resume.html            # Resume page
+A healthcare web-based application streamlining appointment booking and management. Includes modules for patients, doctors, and admins — built with Java, Spring Boot, Angular, and MySQL, deployed on AWS.
 
-/testimonials.html      # Testimonials component
+*Role: Full Stack Java Developer*
 
-/blog.html              # Blog links page
-
-/contact.html           # Contact form page
-
-Open commonfile.html in your web browser to view the portfolio.
-
-**To customize:**
-
-Replace images in /assets/images/.
-
-Edit content in each HTML page.
-
-Modify colors or typography in /assets/css/style.css using CSS variables.
-
-To deploy, upload all files to any static site hosting service (GitHub Pages, Netlify, Vercel, etc.).
-
-**Customization Tips:**
-
-Change the primary and accent colors in style.css via CSS variables.
-
-Update social media and blog profile links in the Blog and Contact pages.
-
-Add or remove projects by editing projects.html and project-single.html.
-
-Replace the profile image with your own (400x400 px recommended).
-
-Update testimonials and blog section with your own input.
-
-**Technologies Used:**
-
-HTML5 & CSS3
-
-Bootstrap 5
-
-Iconify icons
-
-Google Fonts (Poppins & Open Sans)
-
-Minimal JavaScript for interactive elements and form validation
-
-**Credits & References:**
-
-Bootstrap 5 framework: https://getbootstrap.com/
-
-Iconify icons: https://iconify.design/
-
-Images sourced from Unsplash or your own
+Achievements: Reduced appointment booking time by 40%, optimized application performance, delivered 3 major production releases without critical defects.
 
 **Contact:**
 
 Email: alugalakarthik123@gmail.com
 
-Phone: +91 9490901583
+Phone: 9490901583
 
-LinkedIn: www.linkedin.com/in/alugala-karthik-kumar-a937b9210
+LinkedIn: linkedin.com/in/yourprofile
 
+GitHub: github.com/yourgithub
 
+**How to Use This Repository:**
+
+This repository contains the source code, assets, and documentation for my portfolio website. Feel free to explore my projects and reach out if you want to connect!
+
+**License:**
+
+Please contact me if you wish to reuse or modify any content in this repository.
 
