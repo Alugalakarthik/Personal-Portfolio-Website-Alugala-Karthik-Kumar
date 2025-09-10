@@ -42,7 +42,7 @@ Optimized database queries and implemented caching strategies for enhanced perfo
 
 **Projects:**
 
-*Doctor Appointment Management System*
+**Doctor Appointment Management System**
 
 A healthcare web-based application streamlining appointment booking and management. Includes modules for patients, doctors, and admins — built with Java, Spring Boot, Angular, and MySQL, deployed on AWS.
 
@@ -56,9 +56,9 @@ Email: alugalakarthik123@gmail.com
 
 Phone: 9490901583
 
-LinkedIn: linkedin.com/in/yourprofile
+LinkedIn: http://www.linkedin.com/in/alugala-karthik-kumar-a937b9210
 
-GitHub: github.com/yourgithub
+GitHub: https://github.com/Alugalakarthik/Personal-Portfolio-Website-Alugala-Karthik-Kumar.git
 
 **How to Use This Repository:**
 
