@@ -6,29 +6,55 @@
   <title>Karthik.dev - Full Stack Java Developer</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
   <nav class="navbar">
     <div class="brand-with-photo">
-  <img src="Photo.jpeg" alt="Karthik Kumar" class="profile-photo" />
-  <span class="brand-text">Karthik.dev</span>
-</div>
-    <div class="container nav-container">
-      <span class="brand-gradient nav-brand">Alugala Karthik Kumar</span>
-      <ul class="nav-links">
-        <li><a href="#about" class="nav-link">About</a></li>
-        <li><a href="#skills" class="nav-link">Skills</a></li>
-        <li><a href="#projects" class="nav-link">Projects</a></li>
-        <li><a href="#experience" class="nav-link">Experience</a></li>
-        <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li>
-          <a href="resume.pdf" download class="btn btn-resume">
-            <i class="fas fa-file-download"></i> Resume
-          </a>
-        </li>
-      </ul>
+        <img src="Photo.jpeg" alt="Karthik Kumar" class="profile-photo" />
+        <span class="brand-text">Karthik.dev</span>
     </div>
-  </nav>
+    <div class="spacer-row"></div>
+    <div class="brand-title-row">
+        <span class="brand-gradient nav-brand">Alugala Karthik Kumar</span>
+        <span class="nav-subtitle">-Full Stack Java Developer</span>
+    </div>
+    <div class="spacer-row"></div>
+    <div class="container nav-container">
+        <ul class="nav-links">
+            <li>
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-user"></i> About
+                </a>
+            </li>
+            <li>
+                <a href="#skills" class="nav-link">
+                    <i class="fas fa-cogs"></i> Skills
+                </a>
+            </li>
+            <li>
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-folder-open"></i> Projects
+                </a>
+            </li>
+            <li>
+                <a href="#experience" class="nav-link">
+                    <i class="fas fa-briefcase"></i> Experience
+                </a>
+            </li>
+            <li>
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i> Contact
+                </a>
+            </li>
+            <li>
+                <a href="resume.pdf" download class="btn btn-resume">
+                    <i class="fas fa-file-download"></i> Resume
+                </a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
   <section id="about" class="section fade-in">
     <div class="container">
@@ -40,24 +66,64 @@
   </section>
 
   <section id="skills" class="section fade-in">
-    <div class="container">
-      <h2 class="brand-gradient">Skills</h2>
-      <ul class="skills-list">
-        <li>Java, Python (Basics), C</li>
-        <li>Spring Boot, Hibernate, Angular</li>
-        <li>HTML5, CSS3, Bootstrap, JavaScript</li>
-        <li>REST APIs, MySQL</li>
-        <li>Git, GitHub, Maven, AWS</li>
-        <li>Agile Scrum Methodology</li>
-      </ul>
+  <div class="container">
+    <h2 class="brand-gradient">Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-item"><i class="fab fa-java"></i><span>Java</span></div>
+      <div class="skill-item"><i class="fab fa-python"></i><span>Python (Basics)</span></div>
+      <div class="skill-item"><i class="fas fa-code"></i><span>C</span></div>
+      <div class="skill-item"><i class="fas fa-leaf"></i><span>Spring Boot</span></div>
+      <div class="skill-item"><i class="fas fa-h-square"></i><span>Hibernate</span></div>
+      <div class="skill-item"><i class="fab fa-angular"></i><span>Angular</span></div>
+      <div class="skill-item"><i class="fab fa-html5"></i><span>HTML5</span></div>
+      <div class="skill-item"><i class="fab fa-css3-alt"></i><span>CSS3</span></div>
+      <div class="skill-item"><i class="fab fa-bootstrap"></i><span>Bootstrap</span></div>
+      <div class="skill-item"><i class="fab fa-js"></i><span>JavaScript</span></div>
+      <div class="skill-item"><i class="fas fa-retweet"></i><span>REST APIs</span></div>
+      <div class="skill-item"><i class="fas fa-database"></i><span>MySQL</span></div>
+      <div class="skill-item"><i class="fab fa-git-alt"></i><span>Git</span></div>
+      <div class="skill-item"><i class="fab fa-github"></i><span>GitHub</span></div>
+      <div class="skill-item"><i class="fas fa-cogs"></i><span>Maven</span></div>
+      <div class="skill-item"><i class="fab fa-aws"></i><span>AWS</span></div>
+      <div class="skill-item"><i class="fas fa-users"></i><span>Agile Scrum</span></div>
     </div>
-  </section>
+  </div>
+</section>
+
+<style>
+  .skills-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .skill-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: #333333;
+    background: #f4f8fb;
+    padding: 8px 12px;
+    border-radius: 6px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: background-color 0.3s ease;
+  }
+  .skill-item i {
+    font-size: 24px;
+    color: #0056b3; /* accent color */
+  }
+  .skill-item:hover {
+    background-color: #18ea8c;
+  }
+</style>
 
   <section id="projects" class="section fade-in">
-    <div class="container">
-      <h2 class="brand-gradient">Projects</h2>
-      <div class="card">
+  <div class="container">
+    <h2 class="brand-gradient">Projects</h2>
+    <div class="card" style="display: flex; align-items: center; gap: 20px;">
+      <div style="flex: 1;">
         <h3>Doctor Appointment Management System</h3>
+        <h4>Domain : Healthcare</h4>
         <p>
           Healthcare app for booking appointments and schedule management. Used Java, Spring Boot, Angular, MySQL, AWS.
         </p>
@@ -67,13 +133,17 @@
           <li>Zero critical defects in 3 releases</li>
         </ul>
       </div>
+      <div style="flex-shrink: 0;">
+        <img src="C:/Users/Admin/OneDrive/Desktop/Personal Portfolio/DoctorAppointmentManagement.jpg" alt="Doctor Appointment Image" width="400" height="300">
+      </div>
     </div>
-  </section>
-
+  </div>
+</section>
   <section id="experience" class="section fade-in">
     <div class="container">
       <h2 class="brand-gradient">Experience</h2>
-      <div class="card">
+      <div class="card" style="display: flex; align-items:center; gap:20px;">
+        <div style="flex:1;">
         <h3>Full Stack Java Developer - Starlite Infotech Limited</h3>
         <p><em>July 2022 – Present, Bengaluru, India</em></p>
         <ul>
@@ -81,6 +151,10 @@
           <li>REST API design, Angular integration</li>
           <li>Performance tuning, agile process, AWS deployment</li>
         </ul>
+        </div>
+        <div style="flex-shrink:0;">
+          <img src="C:/Users/Admin/OneDrive/Desktop/Personal Portfolio/logo.png" alt="Starlite Infotech Limited" width="400" height="300">
+        </div>
       </div>
     </div>
   </section>
